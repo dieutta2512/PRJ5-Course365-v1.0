@@ -1,0 +1,32 @@
+.course-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: white;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.course-th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--color-border);
+  background: #fafafa;
+  white-space: nowrap;
+}
+
+.course-th:first-child {
+  border-radius: var(--radius-lg) 0 0 0;
+}
+.course-th:last-child {
+  border-radius: 0 var(--radius-lg) 0 0;
+}

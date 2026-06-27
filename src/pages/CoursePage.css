@@ -1,0 +1,74 @@
+.course-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.course-page-breadcrumb {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: transparent;
+  border: none;
+  padding: 6px 0;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.breadcrumb-back:hover {
+  color: var(--color-text-primary);
+}
+
+.form-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 60px;
+  background: white;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  max-width: 680px;
+}
+
+.form-load-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 60px;
+  background: white;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  max-width: 680px;
+}
+
+/* Spinner reused from list page */
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 14px;
+  font-weight: 500;
+}
