@@ -106,11 +106,7 @@ dist/
 
 Link demo sau khi deploy lên Vercel hoặc Netlify:
 
-```
-https://your-project.vercel.app
-```
-
-*()*
+*(https://fanciful-pasca-316be7.netlify.app/courses)*
 
 ---
 
